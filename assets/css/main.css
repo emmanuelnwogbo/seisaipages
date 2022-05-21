@@ -1,0 +1,19 @@
+:root {
+    --ideal-viewport-width: 1600;
+}
+  
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1F1D2B;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
