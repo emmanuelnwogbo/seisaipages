@@ -18,7 +18,7 @@
             <p>The pill</p>
           </div>
         </div>
-        <div class="entrance__folder">
+        <div class="entrance__folder" @click="openmintpage">
           <figure class="entrance__folder--fig">
             <img src="@/assets/imgs/folder.svg"/>
           </figure>
@@ -49,7 +49,12 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  methods: {
+    openmintpage() {
+      window.open('https://mint.saisei.art/');
+    }
+  }
 }
 </script>
 
