@@ -100,6 +100,7 @@
                 justify-content: space-between;
                 padding: #{scaleValue(10)};
                 align-items: center;
+                //hello there
 
                 @media only screen and (max-width: 414px) { 
                     height:  #{scaleValue(200)};
